@@ -23,6 +23,7 @@ class Student3 {
 class NameComparator implements Comparator<Student3> {
     @Override
     public int compare(Student3 s1, Student3 s2) {
+        // String's compareTo() method
         return s1.name.compareTo(s2.name); // ascending order by name
     }
 }
